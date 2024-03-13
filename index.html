@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menú Interactivo</title>
+</head>
+<body>
+
+  <h2>Menú Interactivo</h2>
+  <p>Selecciona una opción para ver su contenido:</p>
+
+  <ul>
+    <li><a href="#appetizers" onclick="mostrar('appetizers')">Aperitivos</a></li>
+    <li><a href="#main-course" onclick="mostrar('main-course')">Plato Principal</a></li>
+    <li><a href="#desserts" onclick="mostrar('desserts')">Postres</a></li>
+  </ul>
+
+  <div id="appetizers" style="display: none;">
+    <h3>Aperitivos</h3>
+    <p>¡Deliciosos aperitivos te están esperando!</p>
+  </div>
+
+  <div id="main-course" style="display: none;">
+    <h3>Plato Principal</h3>
+    <p>¡Nuestros platos principales te van a encantar!</p>
+  </div>
+
+  <div id="desserts" style="display: none;">
+    <h3>Postres</h3>
+    <p>¡No te pierdas nuestros irresistibles postres!</p>
+  </div>
+</body>
+  
